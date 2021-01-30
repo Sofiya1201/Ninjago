@@ -1,0 +1,68 @@
+.mainimg{
+	max-width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+.hcpparagraph{
+	padding-left: 200px;
+	padding-right: 200px;
+
+}
+.aimg, .mimg, .simg{
+	max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.gif{
+	width: auto;
+	height: auto;
+	animation: 4;
+	display: table-cell;
+
+vertical-align: middle;
+
+text-align: center;
+position: relative;
+}
+h2, p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+  
+
+}
+p.pf{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+h1{
+	font-family: "Pacifico", serif;
+
+}
+#Atakhan{
+	
+  background-image: linear-gradient( #ffffff,#66a3ff);
+
+}
+#Sofiya{
+	
+  background-image: linear-gradient(#ffffff,#66d9ff );
+
+}
+#Manaf{
+	
+  background-image: linear-gradient(#ffffff,#fc8383);
+
+
+@font-face {
+  font-family: 'Ninjago';
+  src: url('http://www.fontsaddict.com/fontface/ninjago.ttf');
+}
+.title cursive capitalize{
+	font-style: italic;
+	
+  }
