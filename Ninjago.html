@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="fonts">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3</title>
+    <link href="work.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script>
+document.write(Date());
+</script>
+<script type="text/javascript">
+        document.write("<center><font size=+3 style='color: green;'>");
+        var day = new Date();
+        var hr = day.getHours();
+        if (hr >= 0 && hr < 12) {
+            document.write("Good Morning!");
+        } else if (hr == 12) {
+            document.write("Good Noon!");
+        } else if (hr >= 12 && hr <= 17) {
+            document.write("Good Afternoon!");
+        } else {
+            document.write("Good Evening!");
+        }
+        document.write("</font></center>");
+    </script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <head>
+  <title>Homework 3</title>
+  <style type="text/css">
+    body{
+     font-family: sans-serif;
+     margin: 20px 40px;
+    }
+    #mainbox{
+     font-size: 24px;
+     cursor: pointer;
+     transition: all .6s;
+    }
+    .sidemenu{
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     height: 100%;
+     width: 0px;
+     background-color: #222;
+     z-index: 1;
+     padding-top: 100px;
+     overflow-x: hidden;
+     transition: all .5s;
+    }
+    .sidemenu a{
+     padding: 8px 8px 8px 64px;
+     text-decoration: none;
+     font-size: 20px;
+     color: #999;
+     display: block;
+    }
+    .sidemenu a:hover{
+      color: white;
+    }
+    .sidemenu .closebtn{
+     position: absolute;
+     top: 0px;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 32px;
+    }
+    </style>
+</head>
+
+<body> 
+    <div id="mainbox" onclick="openFunction()">&#9776; Open</div>
+    <img src="Ninjagocropped0.jpeg" class=".mainimg">
+    <div id="menu" class="sidemenu">
+     <a href="#introduction of the team">Introduction of the team</a>
+     <a href="#website project">Information about us</a>
+     <a href="#hour of Code project">Hour of Code</a>
+     <a href="#website project">Website Project</a>
+     <a href="#robotics project">Robotics</a>
+     <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+   </div>
+    <script type="text/javascript">
+        function openFunction(){
+         document.getElementById("menu").style.width="300px";
+         document.getElementById("mainbox").style.marginLeft="300px";
+         document.getElementById("mainbox").innerHTML="Close";
+        }
+       function closeFunction(){
+        document.getElementById("menu").style.width="0px";
+        document.getElementById("mainbox").style.marginLeft="0px";
+        document.getElementById("mainbox").innerHTML="&#9776; Open";
+       }
+       </script>
+        <div id="#introduction of the team">
+            <h1 class="title cursive capitalize">Introduction of the team</h1>
+            <ul>
+                <li><a href="#Atakhan"> Atakhan Akhmedov</a></li>
+                <li><a href="#Sofiya"> Sofiya Hasanzada</a></li>
+                <li><a href="#Manaf"> Manaf Aghazade</a></li>
+                
+            </ul>
+            
+        </div>
+        <div id="#information about team members">
+            <h2 class="title cursive capitalize">Information about team members</h2>
+            <div id="Atakhan"><h3>Atakhan</h3>
+            <p>My name is Atakhan Ahmedov, I'm 17 years old and my major is Computer Science.
+I'm interested in studying computer languages and programs. 
+I like to read the biographies of famous people to study historical events and see what their education and the way to success is like.
+I love sport, especially swimming, I went to judo, MMA, and chess classes.
+So far, I have the second grade in chess, and I hope that I will get the first, and then the master's degree.
+I also like to draw with pens and acrylic colors. Besides, I hope to learn to play the piano and the guitar.
+I'm very fond of traveling!</p>
+<a href="https://www.codecademy.com/profiles/AtakhanAhmedov"> Code Academy Profile</a>
+            <img src="Ninjagocropped1.jpeg" alt="Atakhan" class="aimg"></div>
+            <div id="Sofiya"><h3>Sofiya</h3>
+            <p>My full name is Sofiya Hasanzade. I was born on January 12, 2002 in Baku. I am currently a 1st year student at the Faculty of Computer Science at ADA University. When I have free time from university classes, I love to listen to music, watch movies and especially read books. Psychological and classical books, jazz songs, science fiction and history movies are my favorites. I do sports every day and go swimming in the summer. I cook and play the violin to relieve stress.
+I went to primary school number 83, when my first teacher, Khatira, was one of the most memorable people, and it was my favorite years.I don't think I'm the only one who thinks that. How can I forget the years when I first read the book and learned to read and write?After the 4th grade, a new period began for me. The lyceum period, where the "chosen ones" had to do their best. I went to middle school at the Young Talents lyceum, and high school to the Lyceum named after Academic Zarifa Aliyeva. In high school I planned to go to abroad, or ADA University. My last choice was ADA University and I do not regret for that. Additionally I finished the music school named after L.M. Rastropovich, on violin sector. 
+</p> <a href="https://www.codecademy.com/profiles/SofiyaHasanzade">Code Academy Profile</a>
+<img src="Ninjagocroppedgirl.jpeg" alt="Sofiya" class="simg"></div>
+            <div id="Manaf"><h3>Manaf</h3>
+            <p>I’m Manaf, and I was born in Baku, on 6th September of 2002. I had been living in Old Yasamal for 5 years. I had been gone to Kindergarten No. 17 on Yasamal for 3 years. When I was 5, we went to Jeyranbatan to live there and we have been living there since 2007. I started my primary education on Jeyranbatan No 2 public school, and I had been studied there for 4 years. During that time I had been going to House of culture. After I completed my primary education, I registered to study at the Sumgayit city Gymnasium of Natural Sciences and got a high result in the exam and started studying there. I have graduated from there with high grades. I have been studying on ADA University since 2019 and I am glad to be here.</p> <a href="https://www.codecademy.com/profiles/ManafAghazada"> Code Academy Profile</a>
+            <img src="Ninjagocropped2.jpeg" alt="Manaf" class="mimg"></div>
+            
+                 
+        </div>
+        <div id="hour of Code project" class="hcpparagraph">
+            <h2 class="title cursive capitalize">Hour of Code project</h2>
+            <p>On December 11, 2020, we, the students of #ADAUniversity Faculty of Information Technologies and Computer Sciences, Atakhan Ahmadbey, Manaf Aghazada, and Sabuhi Bashirov organized a lesson called #HourofCode at school No.11 in Sumgayit. This lesson was attended by 23 students of the 5th and 8th grades. Each of us carefully prepared and tried very hard to make the lesson interesting. At the end of the lesson, we presented the children with certificates to please them. The purpose of the #HourofCode event is to acquaint the young generation of the whole world with the IT sphere, show its business prospects and advantages, and also teach schoolchildren to write code on their own.</p>
+        </div>
+        <div id="website project">
+            <h1 class="title cursive capitalize">Website project</h1>
+            <p>Our website is called Ninjago. This name is taken from a cartoon that all three of us have known for a long time. We decided to take this name in view of the fact that the characters of this cartoon are represented by the Lego constructor, which is associated with the Robotics Project. Taking a look at the content of the site, you can see brief information about the members of our group, the previously held Hour of Code and Robotics Project.
+     We encountered some difficulties while creating the site. At first we thought that we should complete the Codecademy courses and then start creating a site, but it was not as easy as it seemed before. After completing the course, it turned out to be a problem for us how to apply this knowledge. Therefore, we used YouTube channels, and thanks to them, we got ideas on how to create our website. At the same time, there was some controversy between the members of the group, as a result of which we had to delete several sites we created, and after that, we finally came to a unanimous opinion on the current version of our site. Hopefully, in the future, when we become professional web developers, we will have better, more useful and interesting projects.</p>
+        </div>
+        <div id="robotics project">
+            <h1 class="title cursive capitalize">Robotics project</h1>
+            <p>The robot we intend to develop is the prototype of robots used at Amazon that help employees perform their many daily tasks. These robots take packages from their places and in the shortest time with high accuracy deliver them to their destination. In this way, they help in a few seconds to complete the work in which people would experience difficulties. These robots travel 3-4 miles per hour and can carry 750 pounds. They move along a coded route and circularly perform this work. LEGO(R) Mindstorms(R) EV3 robots that we are going to code are the 3rd generation of LEGO robots that can walk, talk, hold objects, throw them and perform other functions. To encode these robots EV3 Classroom App. v. 1.2.2 program is used. The main goal of this project is to develop students' abilities and logic, as well as to get them interested in the field of technology.</p>
+        </div>
+
+  </body>
+<footer>
+    <p class="pf">Have a Good Day</p>
+    <img src="Goodbye.gif" class="gif" alt="Picture of the day:)">
+
+</footer>
+</html>
